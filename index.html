@@ -12,147 +12,222 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="container-fluid">
-      <nav class="navbar customcolor border-bottom border-body">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="assets/img/logo.png" alt="Bootstrap" width="132" height="53">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="navbar-nav ms-auto ps-2">
-              <a class="nav-item nav-link active" href="#">Inicio</a>
-              <a class="nav-item nav-link" href="#">Productos</a>
-              <a class="nav-item nav-link" href="#">Contacto</a>
-            </div>
-           </div>
-        </div>
-      </nav>
+  <nav class="navbar customcolor navbar-expand-lg navbar">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/logo.png" alt="Bootstrap" width="132" height="53"
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="nav justify-content-end navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Productos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>  
     </div>
-    main class="container">
-    <H1>NUESTROS PRODUCTOS</H1> 
-    <section class="row">
-      <!----card-1-->
-      <div class="col-12 col-md-6- col-lg-4">
-        <div class="card mx-2">
-          <img src="assets/img/cupon-1.jpg" class="card-img-top" alt="Colaciones">
-          <div class="card-body">
-            <h5 class="card-title fw-light mb-3">
-              Lorem ipsum dolor, sit amet consectetur add
-            </h5>
-            <p class="card-text h6 fw-light">Morbileus saidd</p>
-            <p class="fw-light">
-            <p class="card-text h6 fw-light">Morbileus saidd</p>
-            <p class="fw-light">
-             <i class="fas fa-map-marker-alt fa-xs" aria-hidden="true"></i>
-              9191 Avenida Vitacura, Chile
-            </p>
-            <hr>
-            <ul class="list-group list-group-flush text-right">
-              <li class="list-group-item ms-auto fw-light gris py-0 pe-1">
-                $45.990
-                <span class="h5 fw-bold green ms-3">$22.990</span>
-              </li>
-            </ul>
-          </div>
-        </div>
+  </nav>
+  <div class="container py-5">
+    <h1 class="mb-3 text-center">MIS PRODUCTOS</h1>
+  <div class="row gx-3 gy-3">
+  <!----card-1-->
+  <div class="col-12 col-md-6- col-lg-4">
+    <div class="card mx-2">
+      <img src="assets/img/colaciones.jpg" class="card-img-top" alt="Colaciones">
+       <div class="card-body">
+        <h5 class="card-title fw-light mb-3"> Colaciones
+        </h5>
+        <p class="fw-light">
+          <i class="fas fa-map-marker-alt fa-xs" aria-hidden="true"></i>
+          Sed ut perspiciatis unde omnis iste natus 
+        <p class="card-text h6 fw-light">
+          <ul class="list-group list-group-flush text-right">
+          Morbi leus resus
+          <hr>
+          <ul class="list-group list-group-flush text-right">
+          <p class="card-text h6 fw-light">
+          Porta ac consectetur ac
+        <p class="card-text h6 fw-light">
+          Ver mas        Comprar  
+        </p>
+          <hr>
+          <ul class="list-group list-group-flush text-right">
+          </li>
+        </ul>
       </div>
-      <!----card-2-->
-      <div class="col-12 col-md-6- col-lg-4">
-        <div class="card mx-2">
-          <img src="assets/img/cupon-2.jpg" class="card-img-top" alt="Comida">
-          <div class="card-body">
-            <h5 class="card-title fw-light mb-3">
-              Entrada para compartir + platos de fondo + postres + bebestibles
-            </h5>
-            <p class="card-text h6 fw-light">V for Vegan</p>
-            <p class="fw-light">
-              <i class="fas fa-map-marker-alt fa-xs" aria-hidden="true"></i>
-              777 Jesse Pinkman, Chile
-            </p>
-            <hr>
-            <ul class="list-group list-group-flush text-right">
-              <li class="list-group-item ms-auto fw-light gris py-0 pe-1">
-                $30.990
-                <span class="h5 fw-bold green ms-3">$12.990</span>
-              </li>
-            </ul>
-          </div>
-        </div>
+    </div>
+  </div>
+  <!----card-2-->
+  <div class="col-12 col-md-6- col-lg-4">
+    <div class="card mx-2">
+      <img src="assets/img/desayunos.jpg" class="card-img-top" alt="Desayunos">
+      <div class="card-body">
+        <h5 class="card-title fw-light mb-3"> 
+          Entrada para compartir + platos de fondo + postres + bebestibles
+        </h5>
+        <p class="card-text h6 fw-light">V for Vegan</p>
+        <p class="fw-light">
+          <i class="fas fa-map-marker-alt fa-xs" aria-hidden="true"></i>
+          777 Jesse Pinkman, Chile
+        </p>
+        <hr>
+        <ul class="list-group list-group-flush text-right">
+          <li class="list-group-item ms-auto fw-light gris py-0 pe-1">
+            $30.990
+            <span class="h5 fw-bold green ms-3">$12.990</span>
+          </li>
+        </ul>
       </div>
-      <!----card-3-->
-      <div class="col-12 col-md-6- col-lg-4">
-        <div class="card mx-2">
-          <img src="assets/img/cupon-3.jpg" class="card-img-top" alt="Dental">
-          <div class="card-body">
-            <h5 class="card-title fw-light mb-3">
-              Evaluación integral + Blanqueamiento dental led + limpieza +fluoración
-            </h5>
-            <p class="card-text h6 fw-light">Clinica Dental Quijada</p>
-            <p class="fw-light">
-              <i class="fas fa-map-marker-alt fa-xs" aria-hidden="true"></i>
-              1342, Blanco Encalada, Chile
-            </p>
-            <hr>
-            <ul class="list-group list-group-flush text-right">
-              <li class="list-group-item ms-auto fw-light gris py-0 pe-1">
-                $300.000
-                <span class="h5 fw-bold green ms-3">$25.990</span>
-              </li>
-            </ul>
-          </div>
-        </div>
+    </div>
+  </div>
+  <!----card-3-->
+  <div class="col-12 col-md-6- col-lg-4">
+    <div class="card mx-2">
+      <img src="assets/img/bebidas.jpg" class="card-img-top" alt="Bebidas">
+      <div class="card-body">
+        <h5 class="card-title fw-light mb-3">
+          Evaluación integral + Blanqueamiento dental led + limpieza +fluoración
+        </h5>
+        <p class="card-text h6 fw-light">Clinica Dental Quijada</p>
+        <p class="fw-light">
+          <i class="fas fa-map-marker-alt fa-xs" aria-hidden="true"></i>
+          1342, Blanco Encalada, Chile
+        </p>
+        <hr>
+        <ul class="list-group list-group-flush text-right">
+          <li class="list-group-item ms-auto fw-light gris py-0 pe-1">
+            $300.000
+            <span class="h5 fw-bold green ms-3">$25.990</span>
+          </li>
+        </ul>
       </div>
+    </div>
+  </div>
+  <!----card-4-->
+  <div class="col-12 col-md-6- col-lg-4">
+    <div class="card mx-2">
+      <img src="assets/img/verduras.jpg" class="card-img-top" alt="Verduras">
+      <div class="card-body">
+        <h5 class="card-title fw-light mb-3">
+          Evaluación integral + Blanqueamiento dental led + limpieza +fluoración
+        </h5>
+        <p class="card-text h6 fw-light">Clinica Dental Quijada</p>
+        <p class="fw-light">
+          <i class="fas fa-map-marker-alt fa-xs" aria-hidden="true"></i>
+          1342, Blanco Encalada, Chile
+        </p>
+        <hr>
+        <ul class="list-group list-group-flush text-right">
+          <li class="list-group-item ms-auto fw-light gris py-0 pe-1">
+            $300.000
+            <span class="h5 fw-bold green ms-3">$25.990</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!----card-5-->
+  <div class="col-12 col-md-6- col-lg-4">
+    <div class="card mx-2">
+      <img src="assets/img/dulces.jpg" class="card-img-top" alt="Dulces">
+      <div class="card-body">
+        <h5 class="card-title fw-light mb-3">
+          Entrada para compartir + platos de fondo + postres + bebestibles
+        </h5>
+        <p class="card-text h6 fw-light">V for Vegan</p>
+        <p class="fw-light">
+          <i class="fas fa-map-marker-alt fa-xs" aria-hidden="true"></i>
+          777 Jesse Pinkman, Chile
+        </p>
+        <hr>
+        <ul class="list-group list-group-flush text-right">
+          <li class="list-group-item ms-auto fw-light gris py-0 pe-1">
+            $30.990
+            <span class="h5 fw-bold green ms-3">$12.990</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!----card-6-->
+  <div class="col-12 col-md-6- col-lg-4">
+    <div class="card mx-2">
+      <img src="assets/img/empanadas.jpg" class="card-img-top" alt="Empanadas">
+      <div class="card-body">
+        <h5 class="card-title fw-light mb-3"> Empanadas
+        </h5>
+        <p class="card-text h6 fw-light">Clinica Dental Quijada</p>
+        <p class="fw-light">
+          <i class="fas fa-map-marker-alt fa-xs" aria-hidden="true"></i>
+          1342, Blanco Encalada, Chile
+        </p>
+        <hr>
+        <ul class="list-group list-group-flush text-right">
+          <li class="list-group-item ms-auto fw-light gris py-0 pe-1">
+            $300.000
+            <span class="h5 fw-bold green ms-3">$25.990</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+        
 
-    
-    
+  <div class="container py-5">
+    <h2 class="mb-4 text-center">Mis Tarjetas</h2>
+    <div class="row gx-4 gy-4">
+     <!-- Card 1 -->
+     <div class="col-12 col-md-6 col-xl-3">
+      <div class="card h-100">
+       <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Imagen 1">
+       <div class="card-body">
+        <h5 class="card-title">Título 1</h5>
+        <p class="card-text">Descripción breve de la tarjeta número uno.</p>
+       </div>
+      </div>
+     </div>
+     <!-- Card 2 -->
+     <div class="col-12 col-md-6 col-xl-3">
+      <div class="card h-100">
+       <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Imagen 2">
+       <div class="card-body">
+        <h5 class="card-title">Título 2</h5>
+        <p class="card-text">Descripción breve de la tarjeta número dos.</p>
+       </div>
+      </div>
+     </div>
+     <!-- Card 3 -->
+     <div class="col-12 col-md-6 col-xl-3">
+      <div class="card h-100">
+       <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Imagen 3">
+       <div class="card-body">
+        <h5 class="card-title">Título 3</h5>
+        <p class="card-text">Descripción breve de la tarjeta número tres.</p>
+       </div>
+      </div>
+     </div>
+     <!-- Card 4 -->
+     <div class="col-12 col-md-6 col-xl-3">
+      <div class="card h-100">
+       <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Imagen 4">
+       <div class="card-body">
+        <h5 class="card-title">Título 4</h5>
+        <p class="card-text">Descripción breve de la tarjeta número cuatro.</p>
+       </div>
+      </div>
+     </div>
     </div>
-      <div class="container py-5">
-        <h2 class="mb-4 text-center">Mis Tarjetas</h2>
-        <div class="row gx-4 gy-4">
-        <!-- Card 1 -->
-        <div class="col-12 col-md-6 col-xl-3">
-          <div class="card h-100">
-          <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Imagen 1">
-          <div class="card-body">
-            <h5 class="card-title">Título 1</h5>
-            <p class="card-text">Descripción breve de la tarjeta número uno.</p>
-          </div>
-          </div>
-        </div>
-        <!-- Card 2 -->
-        <div class="col-12 col-md-6 col-xl-3">
-          <div class="card h-100">
-          <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Imagen 2">
-          <div class="card-body">
-            <h5 class="card-title">Título 2</h5>
-            <p class="card-text">Descripción breve de la tarjeta número dos.</p>
-          </div>
-          </div>
-        </div>
-        <!-- Card 3 -->
-        <div class="col-12 col-md-6 col-xl-3">
-          <div class="card h-100">
-          <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Imagen 3">
-          <div class="card-body">
-            <h5 class="card-title">Título 3</h5>
-            <p class="card-text">Descripción breve de la tarjeta número tres.</p>
-          </div>
-          </div>
-        </div>
-        <!-- Card 4 -->
-        <div class="col-12 col-md-6 col-xl-3">
-          <div class="card h-100">
-          <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Imagen 4">
-          <div class="card-body">
-            <h5 class="card-title">Título 4</h5>
-            <p class="card-text">Descripción breve de la tarjeta número cuatro.</p>
-          </div>
-          </div>
-        </div>
-      </div>  
+   </div>
+  
+
 
 </body>
 </html>
